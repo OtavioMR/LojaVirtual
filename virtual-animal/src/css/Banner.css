@@ -1,0 +1,11 @@
+.banner{
+    background-color: crimson;
+}
+
+img{
+    height: 300px;
+    width: 100%; 
+    display: block;
+    padding: 0;
+    margin: 0;
+}
