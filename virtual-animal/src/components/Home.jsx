@@ -1,13 +1,13 @@
 import Header from "./Header";
 import Banner from "./Banner";
-import CardProduto from "./CardProduto";
+import ListaProdutos from "./ListaProdutos";
 
 function Home() {
     return (
         <>
-        <Header/>
-        <Banner/>
-        <CardProduto/>
+            <Header />
+            <Banner />
+            <ListaProdutos />
         </>
     )
 }

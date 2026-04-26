@@ -1,6 +1,8 @@
 nav{
-    background-color: blueviolet;
+    background-color: yellow !important;
 }
+
+/*
 
 ul{
     list-style: none;
@@ -16,4 +18,17 @@ h1{
 
 p{
     color: #ffff;
+}
+*/
+
+img {
+    width: 200px !important;
+    height: 100px !important;
+}
+
+a h1{
+    font-family: "Fraunces", serif !important;
+    font-weight: 900 !important;
+    font-size: 2rem;
+    color: rgb(43, 43, 135);
 }

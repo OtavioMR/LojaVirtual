@@ -1,11 +1,36 @@
-.banner{
-    background-color: crimson;
-}
-
 img{
     height: 300px;
     width: 100%; 
     display: block;
     padding: 0;
     margin: 0;
+}
+.banner{
+    min-height: 500px;
+}
+
+.carrosel{
+    background-color: aquamarine;
+}
+
+@media (max-width: 768px){
+    .banner {
+        min-width: 300px;
+        min-height: 300px;
+    }
+}
+
+@media (max-width: 500px){
+    .banner {
+        min-width: 200px;
+        min-height: 200px;
+    }
+}
+
+.carrosel{
+    padding: 1rem;
+}
+
+.banner-img{
+    border-radius: 20px;
 }
