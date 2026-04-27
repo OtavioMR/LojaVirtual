@@ -1,0 +1,36 @@
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh; /* Ocupa no mínimo a altura total da tela */
+}
+
+.content {
+  flex: 1; /* Faz essa div crescer e empurrar o footer para baixo */
+}
+
+footer{
+    background-color: yellow;
+}
+
+/* Padrão para Mobile: linha embaixo */
+.divisoria {
+    border-bottom: 2px solid #000000; /* Cor cinza clara para ficar elegante */
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+/* Para Telas Grandes (Desktop): remove a linha de baixo e coloca na direita */
+@media (min-width: 992px) {
+    .divisoria {
+        border-bottom: none;
+        border-right: 2px solid #000000;
+        padding-bottom: 0;
+        margin-bottom: 0;
+        padding-right: 15px; /* Espaço para o texto não encostar na linha */
+    }
+
+    /* Remove a borda do último item para não sobrar uma linha na ponta direita */
+    .divisoria:last-child {
+        border-right: none;
+    }
+}

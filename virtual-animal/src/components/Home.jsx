@@ -5,7 +5,6 @@ import ListaProdutos from "./ListaProdutos";
 function Home() {
     return (
         <>
-            <Header />
             <Banner />
             <ListaProdutos />
         </>

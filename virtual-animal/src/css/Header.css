@@ -2,31 +2,7 @@ nav{
     background-color: yellow !important;
 }
 
-/*
-
-ul{
-    list-style: none;
-}
-
-ul li a{
-    color: #ffff;
-}
-
-h1{
-    color: #ffff;
-}
-
-p{
-    color: #ffff;
-}
-*/
-
-img {
-    width: 200px !important;
-    height: 100px !important;
-}
-
-a h1{
+.logo-text{
     font-family: "Fraunces", serif !important;
     font-weight: 900 !important;
     font-size: 2rem;
